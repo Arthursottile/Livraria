@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Livraria da Nina</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Livraria da Nina</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contatos</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="background-candy">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <div class="list">
+            <div class="item active">
+
+                <div class="product-img active">
+                    <img src="./image/1984.png" alt="1984">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Livro Mais Vendido</p>
+                    <p class="product-name">1984 - George Orwell</p>
+                    <p class="description">Um romance distópico, publicado em 1949, que
+                        retrata um futuro sombrio onde um estado totalitário, chamado Oceânia, controla todos os
+                        aspectos da vida dos seus cidadãos, incluindo seus pensamentos.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="./image/animal-farm.png" alt="Animal Farm">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Muito Bem Avaliado</p>
+                    <p class="product-name">A Revolução dos Bichos - George Orwell</p>
+                    <p class="description">Uma fábula satírica que narra a
+                        história de animais de uma granja que se rebelam contra seus donos humanos, buscando uma
+                        sociedade igualitária.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="./image/inside-the-whale.png" alt="Insidethe Whale">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Vale a Pena Conferir</p>
+                    <p class="product-name">Animal Farm - George Orwell</p>
+                    <p class="description">Um ensaio publicado em 1940, que
+                        explora a literatura inglesa das décadas de 1920 e 1930. A metáfora da baleia, inspirada na
+                        história bíblica de Jonas, serve para ilustrar a aceitação da experiência sem a necessidade de
+                        mudá-la.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button class="arrow-btn" id="left">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+                </svg>
+            </button>
+
+            <button class="arrow-btn" id="right">
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                </svg> 
+            </button>
+        </div>
+
+        <div class="indicators">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="scripts.js"></script>
+
+</html>
